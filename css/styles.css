@@ -1,0 +1,100 @@
+/**
+ * Screen Pages Ltd
+ *
+ * @category    Candidate Assessment
+ * @copyright   Copyright (c) 2015 Screen Pages Ltd (http://www.screenpages.com)
+ */
+
+
+/**
+ * DO NOT CHANGE THIS FILE
+ * PLEASE USE mystyles.css
+ */
+
+
+body{
+    font-family: "Arial", Helvetica, sans-serif;
+    font-size:14px;
+    line-height: 20px;
+    color:#333333;
+    margin:0;
+    background: #f4f4f4;
+}
+
+a {
+    color: #0088cc;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #cccccc;
+}
+
+nav{
+    float:right;
+}
+nav ul li{
+    padding:5px 10px;
+    list-style: none;
+}
+
+.header{
+    background: #000;
+    min-height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: hidden;
+    clear: both;
+}
+
+.header .brand{
+    padding: 0px 10px 0px 10px;
+    font-size: 20px;
+    color: #999999;
+    display: block;
+    float: left;
+}
+
+.header-container, .main-container, .footer-container {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+    padding:10px 20px 10px;
+}
+
+.main-container{
+    background: #ffffff;
+    min-height: 600px;
+}
+
+.footer-container{
+    background: #000000;
+    color: #ffffff;
+}
+
+.data-table{
+    width:100%;
+    border:1px solid #000;
+}
+
+.data-table thead tr{
+    background: #cccccc;
+}
+
+.data-table td{
+    padding:5px;
+    border:1px solid #000;
+
+}
+
+.spinner{
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    top: 50%;
+    left: 50%;
+    margin-left: -16px;
+    margin-top: -16px;
+    background: url(../images/ajax-loader.gif);
+    background-size: 100%;
+}
