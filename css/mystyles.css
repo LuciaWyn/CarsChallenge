@@ -1,0 +1,274 @@
+/**
+ * Screen Pages Ltd
+ *
+ * @category    Candidate Assessment
+ * @copyright   Copyright (c) 2015 Screen Pages Ltd (http://www.screenpages.com)
+ */
+
+/**
+ * Please use this file for your styling.
+ */
+body{
+	overflow-x:hidden;
+}
+#topImg{
+	height:62px;
+	width:100%;
+	background-color:#FFFFFF;
+	padding-top:5px;
+	width:920px;
+	margin: auto;
+}
+#leftopimg{
+	float:left;
+}
+#righttopimg{
+	float:right;
+}
+#logos{
+	background-color:#FFFFFF;
+	padding:3px;
+}
+#leftheadtopimg{
+	float:left;
+	height:114px;
+	width:211px
+}
+#rightheadtopimg{
+	float:right;
+	width:263px;
+	height:140px
+}
+.brand{
+	height:142px;
+	width:100%;
+	background:#0d0a09;
+}
+.header-container, .main-container, .footer, nav, #copyright{
+	max-width:none;
+	width:970px;
+	margin: auto;
+}
+.header, .footer-container{
+	width:100%;
+	padding-left:0px;
+}
+.header{
+	background:#0d0a09;
+}
+.footer-container{
+	background-color:#58595b;
+	max-width:none;
+}
+.page-header{
+	position:absolute;
+}
+nav{
+	height:38px;
+}
+nav ul li{
+	display:inline-block;
+	color:white;
+}
+nav ul li:not(:last-child){
+	padding-right:130px;
+}
+nav ul li a{
+	color:white;
+	font-family:arial;
+	font-weight:bold;
+}
+nav ul li a:hover{
+    color: #ed1c24;
+}
+h1{
+	font-family:arial;
+	font-weight:bold;
+	font-size:25px;
+	color:#0d0a09;
+	
+}
+.main-container{
+	padding-top:38px;
+}
+.control-wrapper{
+	padding-bottom:38px;
+}
+.data-table-wrapper{
+	margin-top:38px;
+}
+.btn-load{
+	float:right;
+	width:145px;
+	height:50px;
+	background-color:#ed1c24;
+	font-family:arial;
+	font-weight:bold;
+	color: #FFFFFF;
+	border:none; 
+	border-radius:25px;
+}
+.btn-load:hover{
+	background-color: #7f0917;
+}
+.data-table-wrapper{
+	display:none;
+}
+.data-table-wrapper table{
+	border:none;
+	border-collapse: collapse;
+}
+.data-table tr{
+	background-color:white;
+	height:42px;
+}
+.data-table thead tr td{
+	font-family:arial;
+	font-weight:bold;
+	font-size: 13px;
+	color: white;
+	background-color:#231f20;
+	background-image: linear-gradient(to top, #231f20 0%,#6d6e71 100%);
+	background-blend-mode: luminosity;
+}
+.data-table tr td:nth-child(1){
+	width:100px;
+	padding-left:12px;
+}
+.data-table tr td:nth-child(2){
+	width:122px;
+}
+.data-table tr td:nth-child(3){
+	width:89px;
+}
+.data-table tr td:nth-child(4){
+	width:218px;
+}
+.data-table tr td:nth-child(5){
+	width:263px;
+}
+.data-table tr td:nth-child(6){
+	padding-right:12px;
+}	
+.data-table {
+	width:100%;
+}
+.data-table td{
+	border: none;
+    outline: none;
+	background-color:#e6e7e8;
+	border-bottom: 1px solid #FFFFFF;
+}
+#bottomcar{
+	width:286px;
+	height:138px;
+	float:right;
+	bottom:0;
+}
+.footer{
+	height:279px;
+	background-color:#58595b;
+}
+.bottomlinks, .social-links{
+	display:inline-block;
+	vertical-align: text-top;
+	width:23%;
+}
+.bottomlinks h2, .social-links h2{
+	font-family:arial;
+	font-weight:bold;
+	font-size:15px;
+	color:white;
+	padding-top:40px;
+	padding-bottom:20px;
+}
+.bottomlinks a, .social-links a{
+	font-family:verdana;
+	font-size:12px;
+	color:#e6e7e8;
+	
+}
+.bottomlinks p{
+	font-family:verdana;
+	font-size:12px;
+	color:#e6e7e8;
+}
+.footerline1{
+	width:100%;
+	height:2px;
+	background-color:#231f20;
+}
+.footerline2{
+	width:100%;
+	height:5px;
+	background-color:#ed1c24;
+}
+.footer-container{
+	padding:0;
+}
+#welcome{
+	margin-top:50px;
+}
+#fb{
+	background-image: url('/assets/design/images/social_icon_fb.png');
+	height:51px;
+	width:51px;
+	background-color:blue;
+}
+#fb:hover{
+	background-image: url('/assets/design/images/social_icon_fb-over.png');
+}
+.social-links ul{
+	padding-left:0px;
+}
+.social-links ul li{
+	list-style:none;
+	display:inline-block;
+}
+#twitter{
+	background-image: url('/assets/design/images/social_icon_twitter.png');
+	height:51px;
+	width:51px;
+	background-color:blue;
+}
+#twitter:hover{
+	background-image: url('/assets/design/images/social_icon_twitter-over.png');
+}
+#linkedin{
+	background-image: url('/assets/design/images/social_icon_linkedin.png');
+	height:51px;
+	width:51px;
+	background-color:blue;
+}
+#linkedin:hover{
+	background-image: url('/assets/design/images/social_icon_linkedin-over.png');
+}
+#copyrightfill{
+	display: inline-block;
+	height:35px;
+	background-color:#231f20;
+	width:100%;
+	bottom:0;
+	margin-top:35px;
+}
+#secure{
+	float:right;
+}
+.data-table table tr td img{
+	padding-right:9px;
+	margin-bottom: -3px;
+	display: inline-block;
+}
+.car-container{
+	width: 100%;
+    height: 138px;
+    margin-top: 49px;
+    margin-bottom: 20px;
+}
+.loader{
+	background-image:url('/images/ajax-loader.gif');
+	width:32px;
+	height:32px;
+	margin:auto;
+	display:none;
+}
